@@ -15,6 +15,7 @@
 		8FC2BA272073AA4800DF7EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC2BA252073AA4800DF7EBD /* LaunchScreen.storyboard */; };
 		8FC2BA322073AA4800DF7EBD /* PPimageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2BA312073AA4800DF7EBD /* PPimageViewTests.swift */; };
 		8FC2BA3D2073AA4800DF7EBD /* PPimageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2BA3C2073AA4800DF7EBD /* PPimageViewUITests.swift */; };
+		8FC2BA4B2073AA7E00DF7EBD /* PPImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2BA4A2073AA7E00DF7EBD /* PPImageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8FC2BA382073AA4800DF7EBD /* PPimageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPimageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC2BA3C2073AA4800DF7EBD /* PPimageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPimageViewUITests.swift; sourceTree = "<group>"; };
 		8FC2BA3E2073AA4800DF7EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC2BA4A2073AA7E00DF7EBD /* PPImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPImageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		8FC2BA182073AA4800DF7EBD /* PPimageView */ = {
 			isa = PBXGroup;
 			children = (
+				8FC2BA4A2073AA7E00DF7EBD /* PPImageVC.swift */,
 				8FC2BA192073AA4800DF7EBD /* AppDelegate.swift */,
 				8FC2BA1B2073AA4800DF7EBD /* ViewController.swift */,
 				8FC2BA1D2073AA4800DF7EBD /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				8FC2BA222073AA4800DF7EBD /* PPimageView.xcdatamodeld in Sources */,
 				8FC2BA1C2073AA4800DF7EBD /* ViewController.swift in Sources */,
+				8FC2BA4B2073AA7E00DF7EBD /* PPImageVC.swift in Sources */,
 				8FC2BA1A2073AA4800DF7EBD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
